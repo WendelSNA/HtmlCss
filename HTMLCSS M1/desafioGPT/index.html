@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Prática GPT</title>
+</head>
+<body>
+    <h1>Exercícios básicos de uso de links em HTML</h1>
+    <hr>
+    <h2 id="vem-aqui">Exercício 1: Crie um link que redirecione para a página "https://www.example.com"</h2>
+    <p>R: Aqui esta o <a href="https://www.example.com" target="_blank" rel="external">link</a></p>
+
+    <h2>Exercício 2: Crie um link interno que leve o usuário para a seção "sobre" da página atual.</h2>
+    <p>R: Aqui você pode encontrar informações <a href="pg002.html" target="_self" rel="next">sobre nós.</a></p>
+
+    <h2>Exercício 3: Crie um link que abra uma nova aba ou janela do navegador e redirecione para "https://www.google.com".</h2>
+    <p>R: Você pode encontrar o <a href="https://www.google.com" target="_blank" rel="external">link aqui.</a></p>
+
+    <h2>Exercício 4: Crie um link que abra o cliente de e-mail padrão do usuário com um e-mail pré-preenchido para "exemplo@email.com"</h2>
+    <p><a href="mailto:exemplo@email.com">Enviar e-mail</a></p>
+
+    <h2>Exercício 5: Crie uma imagem que funcione como um link e redirecione para a página "https://www.example.com".</h2>
+    <p>R: <a href="https://www.example.com" target="_blank" rel="external"><img src="download.png" alt="imagem exemplo"></a></p>
+
+    <h2>Exercício 6: Crie um link que faça o download de um arquivo chamado "documento.pdf" quando clicado.</h2>
+    <p>R: <a href="livros/documento.pdf" target="_blank" download="documento.pdf" type="application/pdf">Download aqui</a></p>
+
+    <h2>Exercício 7: Crie um link que abra um vídeo em uma nova aba ou janela do navegador.</h2>
+    <p>R: <a href="https://www.youtube.com/watch?v=crUQ2rAk5AE" target="_blank" rel="external">Link para o vídeo aqui</a></p>
+
+    <h2>Exercício 8: Crie um link que abra o aplicativo de mapa padrão do usuário e mostre a localização de latitude 40.7128 e longitude -74.0060 (localização de Nova York).</h2>
+    <p><a href="https://www.google.com/maps?q=40.7128,-74.0060" target="_blank">Abrir mapa de Nova York</a>
+    </p>
+
+    <h2>Exercício 9: Crie um link que role a página atual para uma determinada âncora dentro do documento.</h2>
+    <a href="#vem-aqui"> Ex01 </a>
+    
+    <h2>Exercício 10: Crie um link que abra uma janela pop-up com o texto "Olá, mundo!" quando clicado.</h2>
+    <p><a href="#" onclick="window.open('about:blank', 'popup', 'width=200,height=200'); window.focus();">Abrir janela pop-up</a>
+    </p>
+</body>
+</html>
