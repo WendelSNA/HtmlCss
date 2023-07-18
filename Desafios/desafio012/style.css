@@ -1,0 +1,9 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font-titulo: 'Sriracha', cursive;
+    --font-padrao: 'Passion One', cursive;
+}
+
